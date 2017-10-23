@@ -1,0 +1,80 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+}
+div {
+  margin-top: 50px;
+}
+#contact {
+  margin-top:0;
+}
+.cform {
+  background-image: url('http://data.whicdn.com/images/230571922/original.jpg');
+  color: #ffffff;
+  display:block;
+  width:600px;
+  padding:20px;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    color:#f3f490;
+    font-size: 50px;
+}
+p {
+  font-size: 18px;
+  color:#fff;
+  text-align: center;
+  text-shadow: 1px 1px #878787;
+}
+.input{
+  width: 400px;
+  font-size: 18px;
+  padding:10px;
+}
+textarea {
+  padding:10px;
+  font-size: 18px;
+}
+fieldset {
+  border: none;
+}
+#forma input[type=text], textarea {
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+  border: 0;
+  box-shadow: 2px 2px 2px #888;
+  width: 400px;
+  text-align: left;
+  vertical-align: middle;
+}
+#contact input[type=text]:focus, textarea:focus {
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: background 0.25 ease-in;
+  -moz-transition: background 0.25 ease-in;
+  -webkit-transition: background 0.25 ease-in;
+}
+button {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  width: 185px;
+  height: 60px;
+  text-shadow: 2px 2px #d1d1d1;
+  font-size: 1.3125em;
+  padding:0.5em;
+  letter-spacing: 0.05em;
+  margin: 0 0 20px 0;
+  display: block;
+  border: 0;
+  text-transform: none;
+  background-image: url('https://static.trendme.net/temp/thumbs/580-480-3-90/DeeDee85-utapozadina_Background_full_3212_29713.png');
+  border-radius: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
